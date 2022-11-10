@@ -1,7 +1,7 @@
 function longestName(names) {
 
   // Set the first name to be the longest
-  let currentLongest = names[1];
+  let currentLongest = names[0];
   // Check each other name in the array starting from the second
   for (let i = 1; i < names.length; i++) {
   
